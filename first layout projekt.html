@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>meine erste projekt</title>
+    <style>
+    html{
+        background: white;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 1em;}
+
+    header{
+        width: 90%;
+        height: 150px;
+        background:rgb(142, 194, 226);
+        margin:0 auto;
+        border-radius: 30px;
+        box-shadow: 10px 5px 10px 0 rgba(67, 77, 228, 0.918);
+    }
+    header img{
+        position: relative;
+        top: 25px;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        display: block;
+    }
+    nav {
+        background: rgba(32, 113, 206, 0.863);
+        height: 40px;
+        width: 90%;
+        margin: auto;
+        border-radius: 0 30px;
+        box-shadow: 0 2px rgb(10, 10, 10);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+    }
+    nav ul li{
+    background:rgb(37, 37, 37);
+    width: 150px;
+    height:40px ;
+    margin-left: 15px;
+    text-align: center;
+    }
+    nav ul li:hover{
+    background:rgb(109, 235, 235);
+    }
+
+    nav ul li a{
+        color: cornsilk;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        line-height:30px ;      
+    }
+
+   #main1{
+    margin: auto;
+    background: rgba(199, 200, 200, 0.938);
+    width: 90%;
+    max-width: 1200px;
+    height: 600px;
+    display: flex; 
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid grey ;
+    flex-wrap: wrap;
+   }
+
+.box{
+    text-align: center;
+    width: 30%;
+    padding: 0px;
+}
+
+.box img{
+    display: block;
+    margin: 0 auto;
+    border-style: groove;
+}
+
+/* h3{
+    text-align: center;
+} */
+
+.box2{
+    text-align: center;
+    width: 30%;
+    padding: 0px;
+    border:1px solid green;
+    background: rgb(142, 194, 226);
+}
+
+footer{
+    width: 20%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+   footer img{
+       display: inline-block;
+       margin: 0 auto;
+       width: 60px;
+       height: 60px;   
+   }
+
+</style>
+</head>
+
+<body>
+    <header>
+        <img src="bilder/dell-logo.png" alt="Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a  href="#">home</a></li>
+            <li><a href="#">service</a></li>
+            <li><a href="#">our produkt</a></li>
+            <li><a href="#">a bout us</a></li>
+        </ul>
+    </nav>
+
+        <div id="main1">
+
+            <section class="box">
+                <h3 class="">Überschrift</h3>
+                <img src="bilder/laptop-bild.jfif" width="300" height="250" alt="foto1">
+                <p> Dell Technologies stellt neue Rechner vor
+                    Dell Technologies präsentiert ein neues Portfolio an Latitude-Laptops,
+                    OptiPlex-PCs und UltraSharp-Displays.
+                </p>
+            </section>
+
+            <section class="box">
+                <h3 class="">Überschrift</h3>
+                <img src="bilder/monitor-bild.jfif" width="300" height="250" alt="foto2">
+                <p> Dell Technologies stellt neue Rechner vor
+                    Dell Technologies präsentiert ein neues Portfolio an Latitude-Laptops,
+                    OptiPlex-PCs und UltraSharp-Displays.</p>
+            </section>
+
+            <section class="box">
+                <h3 class="">Überschrift</h3>
+                <img src="bilder/pc-equipment-bild.jfif" width="300" height="250" alt="foto3">
+                <p> Dell Technologies stellt neue Rechner vor
+                    Dell Technologies präsentiert ein neues Portfolio an Latitude-Laptops,
+                    OptiPlex-PCs und UltraSharp-Displays.
+                </p>
+            </section>
+       
+            <section class="box2">
+                <h3 class="klasse">Das Latitude 7520</h3>
+                <p class="topic1">Die Preise starten bei 1.259 Euro (zzgl. MwSt.) für das Latitude 7520 und 887 Euro (zzgl. MwSt.) für das Latitude 5420.</p>
+            </section>
+
+            <section class="box2">
+                <h3 class="klasse">Der OptiPlex 3090 Ultra</h3>
+                <p class="topic1">Die Preise starten bei 579 Euro bzw. 719 Euro, jeweils zzgl. MwSt.</p>
+            </section>
+        </div>
+    <footer>
+        <img src="bilder/facebook-icon.png" alt="facebook">
+        <img src="bilder/youtube-icon.png" alt="youtube">
+        <img src="bilder/instagram-icon.png" alt="instagram">
+    </footer>
+</body>
+</html>
